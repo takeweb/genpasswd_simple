@@ -7,9 +7,9 @@ cargo add rand
 cargo add rand_distr
 ```
 
-## コマンドのインストール
+## コマンドのインストール　＊注意: crates.ioに同名のコマンドが存在する為。
 ```
-cargo install genpasswd
+cargo install --path .
 ```
 
 ## 使い方
