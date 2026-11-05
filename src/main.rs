@@ -20,6 +20,6 @@ fn main() {
         std::process::exit(1);
     }
 
-    let password = genpasswd::generate_password(args.length, args.symbols);
+    let password = genpasswd_simple::generate_password(args.length, args.symbols);
     println!("Generated password: {}", password);
 }
