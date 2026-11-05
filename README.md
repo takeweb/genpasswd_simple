@@ -1,4 +1,7 @@
-# セキュアなパスワードジェネレーター
+# genpasswd_simple
+
+セキュアなパスワードジェネレーター（シンプル版）。
+サービスごとの履歴管理が必要な場合は [genpasswd](https://github.com/takeweb/genpasswd) を使用してください。
 
 ## 環境構築
 ```
@@ -15,10 +18,10 @@ cargo install --path .
 ## 使い方
 ```
 
-genpasswd -h
+genpasswd_simple -h
 Secure Password Generator
 
-Usage: genpasswd [OPTIONS]
+Usage: genpasswd_simple [OPTIONS]
 
 Options:
   -l, --length <LENGTH>  Length of the password [default: 16]
